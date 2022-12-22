@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: gowebtest
+  name: gowebtest
+  namespace: goweb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gowebtest
+  template:
+    metadata:
+      labels:
+        app: gowebtest
+    spec:
+      containers:
+      - image: godemo01:TAG
+        name: godemo01
+        ports:
+        - containerPort: 8888
