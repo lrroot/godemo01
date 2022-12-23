@@ -1,3 +1,10 @@
 # godemo01
 
-token : godemo01 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
+token :&#x20;
+
+1.  ghp\_
+
+2.  d9aDER5sidgbi9BKmLcZDdGw3O8DuT3N19
+
+3.  e1
+
